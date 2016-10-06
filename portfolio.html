@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<title>Assignment 1 for scss</title>
+	<meta charset="utf-8">
+	<meta name="viewport"
+	content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="style.css">
+ <script>
+  function myFunction() {
+  	console.log("foo");
+    var x = document.getElementById("mytopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+  }
+  </script>
+	</head>
+
+	<body>
+
+<div class="back">
+
+<section>
+	<div class="banner">
+		<h1>Matt Stewart:<em> learning design and coding</em></h1>
+		<!-- Nav bar -->
+		<nav>
+			<ul class="topnav" id="mytopnav">
+				<li><a class="active" href="home.html">Home</a></li>
+				<li><a href="portfolio.html">Portfolio</a></li>
+				<li><a href="contact.html">Contact</a></li>
+				<li class="icon"><a href="javascript:void(0);" onclick="myFunction()">&#9776;</a>
+  </li>
+			</ul>
+		</nav>
+	</div>
+
+
+<main>
+	<article>
+		<h2>My Story</h2>
+		<p> Nulla viverra metus nec tincidunt commodo. Morbi nec tincidunt eros, tempus ultrices ex. Suspendisse pellentesque ut ante mollis consectetur. Vivamus placerat ex leo, id condimentum nisl mollis aliquam. Suspendisse cursus, dui non porttitor egestas, arcu est vulputate urna, in lobortis orci dui aliquam odio. Nullam tincidunt mauris quis quam luctus tincidunt non quis ligula. </p>
+		<p> Ut luctus libero nec orci rhoncus, non egestas ante consequat. Donec vel diam at leo volutpat sodales. Etiam a lacus vel purus venenatis pharetra vel eu nisi. Fusce ultricies bibendum faucibus. Duis cursus blandit nulla, non eleifend massa ullamcorper a. Praesent nec sollicitudin purus. Suspendisse potenti. Praesent sollicitudin libero aliquam tempus semper. </p>
+		<h2>Education</h2>
+		<ul>
+			<li>SAIT, Web Developer Certifacte</li>
+			<li>Mount Royal University, Digital Graphic Design Certificate</li>
+			<li>University of Saskatchewan, M.A.</li>
+			<li>University of Northern British Columbia, B.A.</li>
+		</ul>
+		<div class="portfolio">
+			<h2>Sample Portfolio</h2>
+			<img src="./images/calgary-bridge.jpg" alt="water colour painting of a lion statue on a bridge in Calgary alberta">
+			<img src="./images/citizen-advertisement.jpg" alt="advertisement for citizen watches">
+			<img src="./images/creature.jpg" alt="Creature of the black lagoon drawing">
+			<img src="./images/human-cell.jpg" alt="human cell illustration made in adobe illustrator">
+			<img src="./images/lack.jpg" alt="illustration of eddie lack from the vancouver canucks">
+			<img src="./images/trout.jpg" alt="illustration of the angel's mike trout">
+		</div>
+	</article>
+</main>
+</section>
+
+
+</div>
+	<footer>
+		<p>Follow me on my social media accounts to see more of work and <a class="fmail" href="mailto:stewartillustrations@gmail.com">email</a> me about web and design opportunities</p> 
+	<ul>
+		<li><a href="https://twitter.com/Archaeomatt"><img src="./images/twitter.jpg" alt="twitter icon"></a></li>
+		<li><a href="https://www.facebook.com/Matthew-S-Stewart-Illustration-Design-176537612408102/"><img src="./images/facebook.jpg" alt="facebook icon"></a></li>
+		<li><a href="http://www.imgrum.net/user/stewartillustrations/1211124725"><img src="./images/instagram.jpg" alt="instagram icon"></a></li>
+		<li><a href="http://sketchcardsbystewart.tumblr.com/"><img src="./images/tumblr.jpg" alt="tubmlr icon"></a></li>
+		<li><a href="http://codepen.io/mattstewart/"><img src="./images/codepen.jpg" alt="codepen icon"></a></li>
+	</ul>
+	</footer>
+	</body>
+</html>
