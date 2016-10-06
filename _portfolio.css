@@ -1,0 +1,25 @@
+.portfolio {
+  display: inline-block;
+  margin: 5%; }
+
+.portfolio img {
+  width: 75%; }
+
+@media only screen and (min-width: 45em) {
+  .portfolio {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 25%;
+    background-color: #2d4e84;
+    padding: 5%; }
+    .portfolio h2 {
+      font-size: 2em;
+      color: #c6cad1; }
+    .portfolio img {
+      width: 50%; } }
+
+/*# sourceMappingURL=_portfolio.css.map */
