@@ -4,6 +4,6 @@
 styles/*.css
 styles/*.map
 
-# this will ignore all of the above files for uploading to github? #
+#this will ignore all of the above files for uploading to github?#
 
-# is the sign for adding a comment in .gitignore files #
+#is the sign for adding a comment in .gitignore files#

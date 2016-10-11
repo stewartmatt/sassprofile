@@ -1,17 +1,18 @@
 footer {
-  position: fixed;
-  left: 0px;
-  bottom: 0px;
-  height: 10%;
-  margin-top: 5%;
-  padding: 0 20px 40px 20px;
+  height: 5em;
+  padding: 0 20px 3em 20px;
   width: 100%;
-  background: #999; }
+  background: #212223; }
 
+@media only screen and (min-width: 70em) {
+  footer {
+    position: fixed;
+    left: 0px;
+    bottom: 0px; } }
 footer p {
   font-size: 1em;
   line-height: 1.4em;
-  color: #353a42;
+  color: white;
   text-align: center; }
 
 footer ul {
@@ -102,7 +103,7 @@ ul.topnav li.icon {
       width: 50%; } }
 @media only screen and (min-width: 40em) {
   .info {
-    width: 50%;
+    width: 75%;
     float: right;
     padding-left: 3%; }
 
@@ -111,7 +112,10 @@ ul.topnav li.icon {
 
   .checkbox {
     font-size: 1.2em;
-    line-height: 1.6em; } }
+    line-height: 1.6em; }
+
+  label {
+    float: left; } }
 form {
   margin: 20px 5px;
   background-color: rgba(255, 255, 255, 0.5); }
@@ -133,7 +137,8 @@ label {
 p {
   font-size: 0.9em;
   color: #5f6063;
-  font-family: Georgia, serif; }
+  font-family: Georgia, serif;
+  line-height: 1.4em; }
 
 @media only screen and (min-width: 70em) {
   p {
@@ -150,15 +155,29 @@ main {
 @media only screen and (min-width: 70em) {
   main {
     margin-bottom: 15%; } }
-@media only screen and (min-width: 70em) {
-  .lists {
+ul {
+  color: #5f6063;
+  font-family: Georgia, serif; }
+
+li {
+  font-size: 1em;
+  color: #5f6063;
+  font-family: Georgia, serif; }
+
+@media only screen and (min-width: 77em) {
+  .lists h3 {
+    margin-top: 4em; }
+
+  .lists ul {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
     align-content: center; }
-    .lists li {
-      font-size: 1.4em; } }
+
+  li {
+    font-size: 1.4em;
+    margin: 1em; } }
 .banner {
   background-color: orange;
   width: 100%;

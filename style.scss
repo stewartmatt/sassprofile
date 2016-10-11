@@ -15,6 +15,7 @@ p   {
     font-size: 0.9em;
     color: $main-color;
     font-family: $main-font;
+    line-height: 1.4em;
 }
   @media only screen and (min-width:70em) {
     p {
@@ -37,17 +38,31 @@ main {
     margin-bottom: 15%;
     }
 }    
-  @media only screen and (min-width:70em) {
-.lists {
+
+ul {
+      color: $main-color;
+    font-family: $main-font;
+}
+  li {
+    font-size: 1em;
+    color: $main-color;
+    font-family: $main-font;
+  }
+  @media only screen and (min-width:77em) {
+    .lists h3 {
+      margin-top: 4em;
+    }
+    .lists ul {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
     align-content: center;
+    }
       li {
       font-size: 1.4em;
+      margin: 1em;
       }   
-  }
 }
 .banner {
     background-color: orange;
